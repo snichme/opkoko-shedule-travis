@@ -5,3 +5,4 @@ script: bash ./travis.sh
 env:
   global:
   - GH_REF: github.com/snichme/opkoko-schedule-travis
+  - GH_TOKEN: mange

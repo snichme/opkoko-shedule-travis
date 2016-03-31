@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-    - "5"
+- '5'
 script: bash ./travis.sh
 env:
   global:
   - GH_REF: github.com/snichme/opkoko-schedule-travis
-  - GH_TOKEN: mange
+  - secure: PKOENXKiRPI+S48px2wHezA2DR7axkhHJyHdDV842X+VVFRo/RDHPJqHGeWBqBW4TXAFuix3QDblRh2BlK58ADYZf5aI+YwF2IHc0C+H50Y2Vn0vXmc+S9pun58ZOJAGYEgW75/6/qpeB9wVgi19wGmsRn+SUUVuH7ylP74XFXBMaP9JBgGxG40Ri0adDh3V2YyF2LnMy6OiSiHXkZbd5gK0oooO2RvnEiWJkMRk3LPX1P2mARSbqyX2JJfERiaDJuSwe9qw3gwoH30Dk2iBvsToNBWA9M7t5HzPBOcHez8I1FHge3zmedAlUhhHFvTaXFZMDCwoMIIUDQD8YKZ30jzK9a3v88JQW2uMP3PVK9slxJlxDNWG/k10IFSCKtS6JPYVamr9bcw3G/3cq6xvTUheh2KTM+JUoAhemz5brb6eOJLSkzjrjxrEbObcpOXlj+mXurhUnCovRWk10pdWjbhJz1bbGnY7DnX0GyBpWoxxU/tLMz3rEvWPZiV4m1KadioUXixwspt096TM0hHt4EGJNsXRSujlwRtzQX+HN/TsUUhstyPHM+cpwEx8WwhomBezN5N0YznNkviu6g5mKl9rUntzSlhehMSKjyFYZom4FWVtRF89RxqUKBidkEyKKuj2xp+vtwXjd2/slS9J4kda4TybYy1cQlk7F27TGVU=

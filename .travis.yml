@@ -1,3 +1,7 @@
 language: node_js
 node_js:
     - "5"
+script: bash ./travis.sh
+env:
+  global:
+  - GH_REF: github.com/snichme/opkoko-schedule-travis
